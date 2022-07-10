@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/video/CustomVideoView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/NetUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/SplashActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/TestSecondConnectActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/bean/BleListBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/bean/BleRespBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/bean/BleTooLongBean.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/common/DateUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/common/JsonUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/common/SQLiteDBUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/common/SaveUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/common/SendDataToHtmlFucUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/constant/Constant.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/filter/EditInputContainFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/filter/EditInputFilter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/html5/HtmlMainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/service/BluetoothLeService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/wtl/ui/Ble_Activity.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
