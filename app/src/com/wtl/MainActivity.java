@@ -1979,6 +1979,8 @@ public class MainActivity extends Activity{
         if (ContextCompat.checkSelfPermission(this, Manifest.permission_group.LOCATION)!= PackageManager.PERMISSION_GRANTED){
             // 获取wifi连接需要定位权限,没有获取权限
             ActivityCompat.requestPermissions((Activity) this,new String[]{
+		    Manifest.permission.BLUETOOTH_SCAN,
+		    Manifest.permission.BLUETOOTH_CONNECT,
                     Manifest.permission.ACCESS_FINE_LOCATION,
                     Manifest.permission.ACCESS_COARSE_LOCATION,
                     Manifest.permission.ACCESS_WIFI_STATE,
@@ -2028,7 +2030,19 @@ public class MainActivity extends Activity{
                 //拒绝权限，弹出提示框。
                 Toast.makeText(this,"拍照权限被拒绝",Toast.LENGTH_LONG).show();
             }
-        }
+        }else  if(requestCode == 1){
+		// 对应 ActivityCompat.requestPermissions 调用时的第三个参数值
+		if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+			// We have the permission
+			Log.d(TAG, "onRequestPermissionsResult: Permission granted");
+		} else {
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+				Toast.makeText(this,"需要蓝牙权限 Bluetooth permission required",Toast.LENGTH_LONG).show();
+			}
+
+			Log.d(TAG, "onRequestPermissionsResult: Permission not granted Build.VERSION.SDK_INT"+Build.VERSION.SDK_INT);
+		}
+	}
     }
 //    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 //    private void setScanCallBack(){
